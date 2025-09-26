@@ -1,0 +1,10 @@
+.pic{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+body{
+    margin: 20px;
+    padding: 20px;
+}
