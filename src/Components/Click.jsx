@@ -14,7 +14,7 @@ function Click() {
         // <button onClick={handleClick}>
         //   Click me
         // </button>
-        <button onClick={handleClick} className="font-bold border-8 m-10 rounded-3xl bg-white p-3 border-black text-center mx-[32rem]">
+        <button onClick={handleClick} className="font-bold border-8 m-10 rounded-3xl bg-white py-3 px-2 border-black text-center mx-[32rem]">
             Clicked {count} times
         </button>
     );
