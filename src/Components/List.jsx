@@ -19,7 +19,7 @@ function List() {
         </li>
     );
     return (
-        <ul>{listitems}</ul>
+        <ul className="font-bold border-8  rounded-3xl bg-white p-3 border-black text-center mx-[30rem]">{listitems}</ul>
     );
 }
 export default List
