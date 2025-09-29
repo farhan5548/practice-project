@@ -26,6 +26,7 @@ function App() {
       <Timer />
       <Taskeffect />
       <NewEffectTask />
+      <h2>API Fecth Using useEffect</h2>
       <FetchUsers />
     </>
   )
