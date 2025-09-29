@@ -9,6 +9,7 @@ import Timer from './Components/Timer'
 import View from './Components/View'
 import Taskeffect from './Components/Taskeffect';
 import NewEffectTask from './Components/NewEffectTask'
+import FetchUsers from './Components/FetchUsers'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Timer />
       <Taskeffect />
       <NewEffectTask />
+      <FetchUsers />
     </>
   )
 }
