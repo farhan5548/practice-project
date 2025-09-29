@@ -8,6 +8,7 @@ import Mydata from './Components/Mydata'
 import Timer from './Components/Timer'
 import View from './Components/View'
 import Taskeffect from './Components/Taskeffect';
+import NewEffectTask from './Components/NewEffectTask'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Bgchange />
       <Timer />
       <Taskeffect />
+      <NewEffectTask />
     </>
   )
 }
