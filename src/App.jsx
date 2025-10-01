@@ -8,6 +8,7 @@ import Timer from "./Components/Timer";
 import Taskeffect from "./Components/Taskeffect";
 import NewEffectTask from "./Components/NewEffectTask";
 import FetchUsers from "./Components/FetchUsers";
+import Ref from "./Components/Ref";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/cd" element={<NewEffectTask />} />
           <Route path="/bg" element={<Bgchange />} />
           <Route path="/api" element={<FetchUsers />} />
+          <Route path="/ref" element={<Ref />} />
         </Routes>
       </BrowserRouter>
     </>
