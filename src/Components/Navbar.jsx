@@ -12,6 +12,7 @@ function Navbar() {
             <Link to="/bg" className="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">BackGroung Changer</Link>
             <Link to="/api" className="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Fetching API</Link>
             <Link to="/ref" className="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">useRef</Link>
+            <Link to="/ref2" className="px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">useRef-2</Link>
         </nav>
     );
 }
