@@ -10,6 +10,7 @@ import NewEffectTask from "./Components/NewEffectTask";
 import FetchUsers from "./Components/FetchUsers";
 import Ref from "./Components/Ref";
 import FocusInput from "./Components/focusInput";
+import Context from "./Components/Context";
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
           <Route path="/bg" element={<Bgchange />} />
           <Route path="/api" element={<FetchUsers />} />
           <Route path="/ref" element={<Ref />} />
-          <Route path="ref2" element={<FocusInput/>} />
+          <Route path="ref2" element={<FocusInput />} />
+          <Route path="ctx" element={<Context />} />
         </Routes>
       </BrowserRouter>
     </>
